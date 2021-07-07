@@ -28,6 +28,10 @@ def drawing(sidesnumber):
     for n in range (sidesnumber):
         f.forward(80)
         f.right(angle)
+        
+ for the_difference in range (4,15):
+    drawing(the_difference)
+
 
 
 
